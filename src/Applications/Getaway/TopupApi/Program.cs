@@ -72,7 +72,7 @@ builder.Services.AddBalanceHttpService();
 
 builder.Services.AddMassTransit(m =>
 {
-    m.AddConsumers(Assembly.GetAssembly(typeof(DebitConsumer)));
+    m.AddConsumers(Assembly.GetAssembly(typeof(DebitConsumer)));//oneplace
     m.UsingRabbitMq((ctx, cfg) =>
     {
         cfg.Host("localhost", "/", c =>

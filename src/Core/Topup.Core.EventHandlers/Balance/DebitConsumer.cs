@@ -23,6 +23,7 @@ public class DebitConsumer : IConsumer<DebitMessage>
     }
     public async Task Consume(ConsumeContext<DebitMessage> context)
     {
+        //using schdual better , fine for our example
         await Task.Delay(5000);//delay until trans proccing for real world
 
         //call confirm

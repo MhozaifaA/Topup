@@ -317,9 +317,6 @@ namespace Balance.BoundedContext.Repositories
         }
 
 
-
-
-
         private async Task<TransactionBalance> setTransactionContext(decimal amount, TransactionStatus status, Guid userId)
         {
             var transactionRecord = new TransactionBalance
