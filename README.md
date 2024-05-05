@@ -16,6 +16,9 @@ or **Debug** by vistal studio
 8. Update-Database -Context BalanceDbContext
 9. Update Database -Context TopupDbContext
 10. run projects.
+11. Balance Api isnot protected (quick to dev). 
+12. Topup seed check ``src\Infrastructure\Databases\Topup.Infrastructure.Databases.SqlServer\Main\Seed``
+13. usernmae:huzaifa, passsword:huzaifa, userNO:012345 /  username:test, password:test, userNO:543210
 
 
 
