@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Meteors.DependencyInjection.AutoService" Version="8.0.0" />
+    <PackageReference Include="Meteors.OperationResult" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Topup.Core\Topup.Core.csproj" />
+    <ProjectReference Include="..\..\..\Domain\Topup.Domain.Implementation\Topup.Domain.Implementation.csproj" />
+    <ProjectReference Include="..\..\..\Integration\Integration.Balance.HttpService\Integration.Balance.HttpService.csproj" />
+  </ItemGroup>
+
+</Project>

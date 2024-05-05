@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Meteors.DependencyInjection.AutoService" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Domain\Topup.Domain.Implementation\Topup.Domain.Implementation.csproj" />
+    <ProjectReference Include="..\..\..\Infrastructure\Databases\Topup.Infrastructure.Databases.SqlServer\Topup.Infrastructure.Databases.SqlServer.csproj" />
+    <ProjectReference Include="..\..\DataTransfer\Topup.BoundedContext.DataTransferObjects\Topup.BoundedContext.DataTransferObjects.csproj" />
+  </ItemGroup>
+
+</Project>

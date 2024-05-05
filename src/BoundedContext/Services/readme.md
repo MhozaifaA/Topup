@@ -1,0 +1,1 @@
+quick service for all as simple struct

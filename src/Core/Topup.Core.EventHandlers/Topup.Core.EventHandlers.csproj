@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="12.2.0" />
+        <PackageReference Include="MassTransit" Version="8.2.2" />
+        <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\BoundedContext\DataTransfer\Topup.BoundedContext.DataTransferObjects\Topup.BoundedContext.DataTransferObjects.csproj" />
+        <ProjectReference Include="..\..\BoundedContext\DataTransfer\Topup.BoundedContext.Transfer.Actions\Topup.BoundedContext.Transfer.Actions.csproj" />
+        <ProjectReference Include="..\..\Domain\Topup.Domain.Implementation\Topup.Domain.Implementation.csproj" />
+        <ProjectReference Include="..\..\Integration\Integration.Balance.HttpService\Integration.Balance.HttpService.csproj" />
+    </ItemGroup>
+
+
+</Project>
