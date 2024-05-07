@@ -2,7 +2,7 @@
 
 To run projects publish then user fit docker images
 
-or **Debug** by vistal studio
+or **Debug** by visutal studio
 
 ## Get Start:
 
@@ -30,7 +30,7 @@ _____________________________
 
 
 
-**Al Apis work Concurrency**
+**All Apis work Concurrency**
 
 ``` sql
 --run 100 vertual user instert 20~100 same time 
